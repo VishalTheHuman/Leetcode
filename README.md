@@ -9,5 +9,5 @@ Here, I will be updating the Leet Code Questions I Solved. The answers will be c
 
 ## 🧑‍💻 Leetcode Stats
 <p align="center">
-  <img align="center" src="https://leetcard.jacoblin.cool/VishalTheHuman?theme=unicorn" style="border-radius:20px;">
+  <img align="center" src="https://leetcard.jacoblin.cool/VishalTheHuman?theme=unicorn" style="border-radius:30px;">
 </p>
