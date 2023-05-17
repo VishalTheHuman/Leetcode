@@ -10,10 +10,10 @@ class Solution {
                 ret.remove(ret.size()-1);
             }
         }
-        String out = "";
+        StringBuilder out = new StringBuilder();
         for(int i =0;i<ret.size();i++){
-            out+=ret.get(i);
+            out.append(ret.get(i));
         }
-        return out;
+        return out.toString();
     }
 }
