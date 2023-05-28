@@ -12,8 +12,8 @@ class Solution {
                 if(j<word2.length()){
                     ret.append(word2.charAt(j));
                     j++;
+                }
             }
-        }
         }else{
             int i =0;
             int j = 0;
