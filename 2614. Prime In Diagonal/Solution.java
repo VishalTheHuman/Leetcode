@@ -10,7 +10,6 @@ class Solution {
         return largest(ret);
     }
     public int largest(List<Integer> list){
-        int large = list.get(0);
         Collections.sort(list);
         int i=list.size()-1;
         while(i>=0){
