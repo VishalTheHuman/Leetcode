@@ -1,3 +1,7 @@
+/* 
+* Two - Point Formula : 
+* (x-x0/x1-x0) = (y-y0)/(y1-y0) 
+*/ 
 class Solution {
     public boolean checkStraightLine(int[][] coordinates) {
         int x0 = coordinates[0][0];
