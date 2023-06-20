@@ -21,7 +21,6 @@ class Solution {
                 }else{
                     ListNode t = new ListNode();
                     t.val = count;
-                    t.next = null;
                     temp.next = t;
                     temp = temp.next;
                 }
