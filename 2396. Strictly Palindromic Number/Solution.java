@@ -12,7 +12,7 @@ class Solution {
         while(n>0){
             int modulo = n%base;
             n/=base;
-            ret.insert(0,Integer.toString(n));
+            ret.insert(0,Integer.toString(modulo));
         }
         return ret.toString();
     }
