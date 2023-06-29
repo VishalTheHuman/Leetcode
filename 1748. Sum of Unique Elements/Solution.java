@@ -8,14 +8,12 @@ class Solution {
                 ret.put(nums[i], ret.get(nums[i]) + 1);
             }
         }
-        
         int sum = 0;
         for (Map.Entry<Integer, Integer> entry : ret.entrySet()) {
             if (entry.getValue() == 1) {
                 sum += entry.getKey();
             }
         }
-        
         return sum;
     }
 }
