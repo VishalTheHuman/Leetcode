@@ -17,4 +17,3 @@ class Solution:
             prev = curr
             curr = curr.next
         return head
-            
