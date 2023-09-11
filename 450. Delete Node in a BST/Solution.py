@@ -27,4 +27,3 @@ class Solution:
             root.val = min_val
             root.right = self.deleteNode(root.right,min_val)
         return root
-        
