@@ -18,6 +18,7 @@ class FindElements:
 
     def find(self, target: int) -> bool:
         return target in self.s
+    int
 
 
 # Your FindElements object will be instantiated and called as such:
