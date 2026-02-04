@@ -10,7 +10,7 @@ class Solution:
             )
 
         count = defaultdict(int)
-        answer = []
+        answer = [] 
         for i in range(k): 
             count[nums[i]] += 1
         answer.append(check())
